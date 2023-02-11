@@ -7,7 +7,7 @@ def calculateAbsolute():
     if in_num > 21:
         abs_num = (in_num - 21) * 2
     else:
-        abs_num = abs(in_num) - 21
+        abs_num = abs(in_num - 21)
 
     print("Result:" , abs_num)
     
